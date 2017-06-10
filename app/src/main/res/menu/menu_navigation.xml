@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:title="@string/inicio"
+        android:icon="@drawable/ic_home"
+        android:id="@+id/inicioItem">
+    </item>
+    <item
+        android:icon="@drawable/ic_search_black_24dp"
+        android:title="@string/buscar"
+        android:id="@+id/buscarItem">
+    </item>
+    <item android:title="@string/camara"
+        android:icon="@drawable/ic_camera_alt_black_24dp"
+        android:id="@+id/camaraItem">
+    </item>
+    <item
+        android:icon="@drawable/ic_person_black_24dp"
+        android:id="@+id/perfilItem"
+        android:title="@string/perfil">
+    </item>
+    <item
+        android:icon="@drawable/ic_star_border_black_24dp"
+        android:id="@+id/favoritosItem"
+        android:title="@string/favorito">
+    </item>
+
+</menu>
